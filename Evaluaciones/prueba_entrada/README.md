@@ -30,15 +30,29 @@ int maxValorRetirado(Jugo W, int j, const std::vector<std::vector<int>>& pesos) 
 
 Las condiciones iniciales son 1<=T<=2 y 1<=N<=5000
 
-No se optó por usar memoización ni DP debido a la complejidad pseudopolinómica que poseemos y que al tener un peso máximo de 10^4 tendríamos una matriz del tamaño 
+No se optó por usar memoización ni DP debido a la complejidad pseudopolinómica que poseemos y que al tener un peso máximo de 10^4 cada W.A, W.B, W.C van de 0 a 10000, por lo tanto el número de estados sería 
 
+$$
+(10001)^3 . n = O(n.10^{12})
+$$
 
 
 Definimos las pruebas para el problema 1 utilizando gtest,
 
+En este ejemplo le asignamos los pesos iniciales que son las preferencias de cada uno de las personas y evaluamos el resultado de la función con la respuesta que deberíamos tener
 
+```cpp
+TEST(JugoTest, Test1) {
+    std::vector<std::vector<int>> pesos = {
+        {10000, 0, 0},
+        {0, 10000, 0},
+        {0, 0, 10000}
+    };
+    Jugo inicial;
+    EXPECT_EQ(maxValorRetirado(inicial, 0, pesos), 1);
+}
+```
 
+Mostramos el output al realizar todas las pruebas:
 
-
-
-![output_pruebas](image-1.png)
+![output_pruebas](/Evaluaciones/prueba_entrada/images/image-1.png)

@@ -1,0 +1,961 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00       55     0.00     0.00  testing::Message::Message()
+  0.00      0.00     0.00       55     0.00     0.00  testing::internal::StringStreamToString(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*)
+  0.00      0.00     0.00       52     0.00     0.00  testing::UnitTest::GetInstance()
+  0.00      0.00     0.00       36     0.00     0.00  testing::TestResult::Failed() const
+  0.00      0.00     0.00       27     0.00     0.00  testing::internal::TestEventRepeater::~TestEventRepeater()
+  0.00      0.00     0.00       26     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0]
+  0.00      0.00     0.00       22     0.00     0.00  testing::internal::(anonymous namespace)::IsGlobPattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.00     0.00       21     0.00     0.00  testing::internal::FlagToEnvVar(char const*)
+  0.00      0.00     0.00       13     0.00     0.00  testing::internal::PrintColorEncoded(char const*) [clone .constprop.0]
+  0.00      0.00     0.00       12     0.00     0.00  testing::internal::BoolFromGTestEnv(char const*, bool)
+  0.00      0.00     0.00       12     0.00     0.00  void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*)
+  0.00      0.00     0.00       11     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+  0.00      0.00     0.00        7     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<int>(int const&)
+  0.00      0.00     0.00        7     0.00     0.00  testing::internal::Mutex::Mutex()
+  0.00      0.00     0.00        7     0.00     0.00  testing::FormatCountableNoun(int, char const*, char const*)
+  0.00      0.00     0.00        7     0.00     0.00  void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  0.00      0.00     0.00        6     0.00     0.00  testing::internal::OsStackTraceGetter::UponLeavingGTest()
+  0.00      0.00     0.00        6     0.00     0.00  testing::internal::StringFromGTestEnv(char const*, char const*)
+  0.00      0.00     0.00        6     0.00     0.00  testing::internal::IsTrue(bool)
+  0.00      0.00     0.00        5     0.00     0.00  testing::TestResult::~TestResult()
+  0.00      0.00     0.00        5     0.00     0.00  testing::internal::(anonymous namespace)::UnitTestFilter::~UnitTestFilter()
+  0.00      0.00     0.00        5     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<long>(long const&)
+  0.00      0.00     0.00        4     0.00     0.00  testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*)
+  0.00      0.00     0.00        4     0.00     0.00  testing::internal::NoExecDeathTest::AssumeRole()
+  0.00      0.00     0.00        4     0.00     0.00  testing::internal::Int32FromEnvOrDie(char const*, int)
+  0.00      0.00     0.00        4     0.00     0.00  testing::TestResult::Skipped() const
+  0.00      0.00     0.00        4     0.00     0.00  void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)
+  0.00      0.00     0.00        3     0.00     0.00  maxValorRetirado(Jugo, int, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&)
+  0.00      0.00     0.00        3     0.00     0.00  Jugo::Jugo(int, int, int)
+  0.00      0.00     0.00        3     0.00     0.00  testing::AssertionSuccess()
+  0.00      0.00     0.00        3     0.00     0.00  testing::Test::DeleteSelf_()
+  0.00      0.00     0.00        3     0.00     0.00  testing::Test::HasFatalFailure()
+  0.00      0.00     0.00        3     0.00     0.00  testing::Test::HasSameFixtureClass()
+  0.00      0.00     0.00        3     0.00     0.00  testing::Test::IsSkipped()
+  0.00      0.00     0.00        3     0.00     0.00  testing::Test::Test()
+  0.00      0.00     0.00        3     0.00     0.00  testing::Test::~Test()
+  0.00      0.00     0.00        3     0.00     0.00  testing::TestInfo::TestInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, testing::internal::CodeLocation, void const*, testing::internal::TestFactoryBase*)
+  0.00      0.00     0.00        3     0.00     0.00  testing::TestInfo::~TestInfo()
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)())
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::GetTestTypeId()
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::SuiteApiResolver<testing::Test>::GetSetUpCaseOrSuite(char const*, int)
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::SuiteApiResolver<testing::Test>::GetTearDownCaseOrSuite(char const*, int)
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::Int32FromGTestEnv(char const*, int)
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*)
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnTestStart(testing::TestInfo const&)
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnTestEnd(testing::TestInfo const&)
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::ReportFailureInUnknownLocation(testing::TestPartResult::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.00     0.00        3     0.00     0.00  testing::Test* testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::TestFactoryBase, testing::Test*>(testing::internal::TestFactoryBase*, testing::Test* (testing::internal::TestFactoryBase::*)(), char const*)
+  0.00      0.00     0.00        3     0.00     0.00  testing::internal::FormatCxxExceptionMessage(char const*, char const*)
+  0.00      0.00     0.00        3     0.00     0.00  void std::vector<testing::TestInfo*, std::allocator<testing::TestInfo*> >::_M_realloc_insert<testing::TestInfo* const&>(__gnu_cxx::__normal_iterator<testing::TestInfo**, std::vector<testing::TestInfo*, std::allocator<testing::TestInfo*> > >, testing::TestInfo* const&)
+  0.00      0.00     0.00        3     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  0.00      0.00     0.00        3     0.00     0.00  std::vector<int, std::allocator<int> >* std::__do_uninit_copy<std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*)
+  0.00      0.00     0.00        3     0.00     0.00  bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  0.00      0.00     0.00        2     0.00     0.00  testing::internal::ShouldShard(char const*, char const*, bool)
+  0.00      0.00     0.00        2     0.00     0.00  void testing::internal::HandleExceptionsInMethodIfSupported<testing::TestSuite, void>(testing::TestSuite*, void (testing::TestSuite::*)(), char const*)
+  0.00      0.00     0.00        2     0.00     0.00  testing::TestSuite::test_to_run_count() const
+  0.00      0.00     0.00        1     0.00     0.00  JugoTest_Test1_Test::TestBody()
+  0.00      0.00     0.00        1     0.00     0.00  JugoTest_Test1_Test::~JugoTest_Test1_Test()
+  0.00      0.00     0.00        1     0.00     0.00  JugoTest_Test2_Test::TestBody()
+  0.00      0.00     0.00        1     0.00     0.00  JugoTest_Test2_Test::~JugoTest_Test2_Test()
+  0.00      0.00     0.00        1     0.00     0.00  JugoTest_Test3_Test::TestBody()
+  0.00      0.00     0.00        1     0.00     0.00  JugoTest_Test3_Test::~JugoTest_Test3_Test()
+  0.00      0.00     0.00        1     0.00     0.00  testing::InitGoogleTest(int*, char**)
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestEventListener::OnTestSuiteEnd(testing::TestSuite const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestEventListener::OnTestSuiteStart(testing::TestSuite const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestInfo::Run()
+  0.00      0.00     0.00        1     0.00     0.00  testing::UnitTest::Run()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::ThreadLocal<testing::TestPartResultReporterInterface*>::InstanceValueHolderFactory::~InstanceValueHolderFactory()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::ThreadLocal<std::vector<testing::internal::TraceInfo, std::allocator<testing::internal::TraceInfo> > >::DefaultValueHolderFactory::~DefaultValueHolderFactory()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::UnitTestImpl::RunAllTests()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::UnitTestImpl::ConfigureXmlOutput()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::UnitTestImpl::ConfigureStreamingOutput()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::UnitTestImpl::UnitTestImpl(testing::UnitTest*)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::UnitTestImpl::~UnitTestImpl()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0]
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::ShouldUseColor(bool)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::CreateTest()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::~TestFactoryImpl()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::CreateTest()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::~TestFactoryImpl()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::CreateTest()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::~TestFactoryImpl()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::UnitTestOptions::GetOutputFormat[abi:cxx11]()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TestEventRepeater::Release(testing::TestEventListener*)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TestEventRepeater::~TestEventRepeater()
+  0.00      0.00     0.00        1     0.00     0.00  void testing::internal::InitGoogleTestImpl<char>(int*, char**)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::OsStackTraceGetter::~OsStackTraceGetter()
+  0.00      0.00     0.00        1     0.00     0.00  std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<char*>(char* const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::DefaultDeathTestFactory::~DefaultDeathTestFactory()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::OutputFlagAlsoCheckEnvVar[abi:cxx11]()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnTestCaseEnd(testing::TestSuite const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnTestCaseStart(testing::TestSuite const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnTestProgramEnd(testing::UnitTest const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnTestProgramStart(testing::UnitTest const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpEnd(testing::UnitTest const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpStart(testing::UnitTest const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownEnd(testing::UnitTest const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownStart(testing::UnitTest const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::PrettyUnitTestResultPrinter::~PrettyUnitTestResultPrinter()
+  0.00      0.00     0.00        1     0.00     0.00  void testing::internal::ParseGoogleTestFlagsOnlyImpl<char>(int*, char**)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::ParseInternalRunDeathTestFlag()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::WriteToShardStatusFileIfNeeded()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::TypeParameterizedTestSuiteRegistry::CheckForInstantiations()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::Mutex::~Mutex()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::String::EndsWithCaseInsensitive(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::FilePath::GetCurrentDir()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::FilePath::Normalize()
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestSuite::RunSetUpTestSuite()
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestSuite::RunTearDownTestSuite()
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestSuite::TestSuite(char const*, char const*, void (*)(), void (*)())
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestSuite::~TestSuite()
+  0.00      0.00     0.00        1     0.00     0.00  testing::internal::(anonymous namespace)::UnitTestFilter::MatchesName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestSuite::skipped_test_count() const
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestSuite::successful_test_count() const
+  0.00      0.00     0.00        1     0.00     0.00  testing::TestSuite::reportable_disabled_test_count() const
+  0.00      0.00     0.00        1     0.00     0.00  std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::vector<testing::TestEventListener*, std::allocator<testing::TestEventListener*> >::_M_realloc_insert<testing::TestEventListener* const&>(__gnu_cxx::__normal_iterator<testing::TestEventListener**, std::vector<testing::TestEventListener*, std::allocator<testing::TestEventListener*> > >, testing::TestEventListener* const&)
+  0.00      0.00     0.00        1     0.00     0.00  void std::vector<testing::TestSuite*, std::allocator<testing::TestSuite*> >::_M_realloc_insert<testing::TestSuite* const&>(__gnu_cxx::__normal_iterator<testing::TestSuite**, std::vector<testing::TestSuite*, std::allocator<testing::TestSuite*> > >, testing::TestSuite* const&)
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012-2024 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 4 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/55          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<char*>(char* const&) [98]
+                0.00    0.00       5/55          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<long>(long const&) [30]
+                0.00    0.00       7/55          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<int>(int const&) [21]
+                0.00    0.00      42/55          testing::internal::FlagToEnvVar(char const*) [16]
+[9]      0.0    0.00    0.00      55         testing::Message::Message() [9]
+-----------------------------------------------
+                0.00    0.00       1/55          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<char*>(char* const&) [98]
+                0.00    0.00       5/55          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<long>(long const&) [30]
+                0.00    0.00       7/55          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<int>(int const&) [21]
+                0.00    0.00      42/55          testing::internal::FlagToEnvVar(char const*) [16]
+[10]     0.0    0.00    0.00      55         testing::internal::StringStreamToString(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*) [10]
+-----------------------------------------------
+                0.00    0.00       1/52          main [7]
+                0.00    0.00       1/52          testing::UnitTest::Run() [76]
+                0.00    0.00       1/52          testing::internal::TypeParameterizedTestSuiteRegistry::CheckForInstantiations() [115]
+                0.00    0.00       1/52          void testing::internal::InitGoogleTestImpl<char>(int*, char**) [96]
+                0.00    0.00       2/52          testing::internal::UnitTestImpl::RunAllTests() [80]
+                0.00    0.00       2/52          void testing::internal::HandleExceptionsInMethodIfSupported<testing::TestSuite, void>(testing::TestSuite*, void (testing::TestSuite::*)(), char const*) [64]
+                0.00    0.00       3/52          testing::Test::HasFatalFailure() [40]
+                0.00    0.00       3/52          testing::Test::IsSkipped() [42]
+                0.00    0.00       3/52          testing::Test::HasSameFixtureClass() [41]
+                0.00    0.00       3/52          testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+                0.00    0.00       3/52          testing::Test* testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::TestFactoryBase, testing::Test*>(testing::internal::TestFactoryBase*, testing::Test* (testing::internal::TestFactoryBase::*)(), char const*) [57]
+                0.00    0.00       8/52          testing::TestInfo::Run() [75]
+                0.00    0.00       9/52          testing::internal::ReportFailureInUnknownLocation(testing::TestPartResult::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [56]
+                0.00    0.00      12/52          void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[11]     0.0    0.00    0.00      52         testing::UnitTest::GetInstance() [11]
+                0.00    0.00       1/7           testing::internal::Mutex::Mutex() [22]
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::UnitTestImpl(testing::UnitTest*) [83]
+-----------------------------------------------
+                0.00    0.00       1/36          testing::TestInfo::Run() [75]
+                0.00    0.00       3/36          testing::TestSuite::skipped_test_count() const [125]
+                0.00    0.00       3/36          testing::Test::IsSkipped() [42]
+                0.00    0.00       4/36          testing::TestResult::Skipped() const [34]
+                0.00    0.00       5/36          testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+                0.00    0.00       5/36          testing::internal::UnitTestImpl::RunAllTests() [80]
+                0.00    0.00       6/36          testing::TestSuite::successful_test_count() const [126]
+                0.00    0.00       9/36          testing::internal::PrettyUnitTestResultPrinter::OnTestEnd(testing::TestInfo const&) [55]
+[12]     0.0    0.00    0.00      36         testing::TestResult::Failed() const [12]
+-----------------------------------------------
+                0.00    0.00       1/27          testing::internal::FilePath::GetCurrentDir() [118]
+                0.00    0.00       1/27          testing::internal::UnitTestOptions::GetOutputFormat[abi:cxx11]() [93]
+                0.00    0.00       1/27          testing::internal::ShouldUseColor(bool) [86]
+                0.00    0.00       1/27          testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int) [106]
+                0.00    0.00       1/27          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) [128]
+                0.00    0.00       3/27          testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+                0.00    0.00       4/27          testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*) [31]
+                0.00    0.00       6/27          testing::TestInfo::TestInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, testing::internal::CodeLocation, void const*, testing::internal::TestFactoryBase*) [45]
+                0.00    0.00       9/27          testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+[13]     0.0    0.00    0.00      27         testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+-----------------------------------------------
+                0.00    0.00       1/26          testing::internal::UnitTestOptions::GetOutputFormat[abi:cxx11]() [93]
+                0.00    0.00       1/26          testing::TestSuite::TestSuite(char const*, char const*, void (*)(), void (*)()) [122]
+                0.00    0.00       1/26          testing::internal::UnitTestImpl::UnitTestImpl(testing::UnitTest*) [83]
+                0.00    0.00       1/26          testing::UnitTest::Run() [76]
+                0.00    0.00       2/26          testing::internal::ShouldUseColor(bool) [86]
+                0.00    0.00       2/26          testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding) [79]
+                0.00    0.00       5/26          testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+                0.00    0.00       6/26          testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+                0.00    0.00       7/26          _GLOBAL__sub_I__ZN7testing15AssertionResultC2ERKS0_ [132]
+[14]     0.0    0.00    0.00      26         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+-----------------------------------------------
+                0.00    0.00       2/22          testing::internal::(anonymous namespace)::UnitTestFilter::MatchesName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [124]
+                0.00    0.00       5/22          testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [48]
+                0.00    0.00      15/22          testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding) [79]
+[15]     0.0    0.00    0.00      22         testing::internal::(anonymous namespace)::IsGlobPattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [15]
+-----------------------------------------------
+                0.00    0.00       3/21          testing::internal::Int32FromGTestEnv(char const*, int) [52]
+                0.00    0.00       6/21          testing::internal::StringFromGTestEnv(char const*, char const*) [26]
+                0.00    0.00      12/21          testing::internal::BoolFromGTestEnv(char const*, bool) [18]
+[16]     0.0    0.00    0.00      21         testing::internal::FlagToEnvVar(char const*) [16]
+                0.00    0.00      42/55          testing::Message::Message() [9]
+                0.00    0.00      42/55          testing::internal::StringStreamToString(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*) [10]
+-----------------------------------------------
+                0.00    0.00       1/13          testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpStart(testing::UnitTest const&) [108]
+                0.00    0.00       1/13          testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownStart(testing::UnitTest const&) [110]
+                0.00    0.00       1/13          testing::internal::PrettyUnitTestResultPrinter::OnTestCaseStart(testing::TestSuite const&) [102]
+                0.00    0.00       1/13          testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int) [106]
+                0.00    0.00       1/13          testing::internal::PrettyUnitTestResultPrinter::OnTestCaseEnd(testing::TestSuite const&) [101]
+                0.00    0.00       2/13          testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+                0.00    0.00       3/13          testing::internal::PrettyUnitTestResultPrinter::OnTestStart(testing::TestInfo const&) [54]
+                0.00    0.00       3/13          testing::internal::PrettyUnitTestResultPrinter::OnTestEnd(testing::TestInfo const&) [55]
+[17]     0.0    0.00    0.00      13         testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+                0.00    0.00       1/1           testing::internal::ShouldUseColor(bool) [86]
+-----------------------------------------------
+                0.00    0.00      12/12          _GLOBAL__sub_I__ZN7testing15AssertionResultC2ERKS0_ [132]
+[18]     0.0    0.00    0.00      12         testing::internal::BoolFromGTestEnv(char const*, bool) [18]
+                0.00    0.00      12/21          testing::internal::FlagToEnvVar(char const*) [16]
+-----------------------------------------------
+                0.00    0.00       6/12          testing::internal::ReportFailureInUnknownLocation(testing::TestPartResult::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [56]
+                0.00    0.00       6/12          testing::TestInfo::Run() [75]
+[19]     0.0    0.00    0.00      12         void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+                0.00    0.00      12/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       6/6           testing::internal::OsStackTraceGetter::UponLeavingGTest() [25]
+                0.00    0.00       3/3           testing::Test::DeleteSelf_() [39]
+                0.00    0.00       1/1           JugoTest_Test3_Test::~JugoTest_Test3_Test() [71]
+                0.00    0.00       1/1           JugoTest_Test3_Test::TestBody() [70]
+                0.00    0.00       1/1           JugoTest_Test2_Test::~JugoTest_Test2_Test() [69]
+                0.00    0.00       1/1           JugoTest_Test2_Test::TestBody() [68]
+                0.00    0.00       1/1           JugoTest_Test1_Test::~JugoTest_Test1_Test() [67]
+                0.00    0.00       1/1           JugoTest_Test1_Test::TestBody() [66]
+-----------------------------------------------
+                0.00    0.00       1/11          testing::internal::UnitTestImpl::RunAllTests() [80]
+                0.00    0.00       1/11          void testing::internal::InitGoogleTestImpl<char>(int*, char**) [96]
+                0.00    0.00       2/11          testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0] [85]
+                0.00    0.00       3/11          testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [48]
+                0.00    0.00       4/11          testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*) [31]
+[20]     0.0    0.00    0.00      11         std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [20]
+-----------------------------------------------
+                0.00    0.00       7/7           testing::FormatCountableNoun(int, char const*, char const*) [23]
+[21]     0.0    0.00    0.00       7         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<int>(int const&) [21]
+                0.00    0.00       7/55          testing::Message::Message() [9]
+                0.00    0.00       7/55          testing::internal::StringStreamToString(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*) [10]
+-----------------------------------------------
+                0.00    0.00       1/7           testing::TestSuite::TestSuite(char const*, char const*, void (*)(), void (*)()) [122]
+                0.00    0.00       1/7           testing::UnitTest::GetInstance() [11]
+                0.00    0.00       2/7           testing::internal::UnitTestImpl::UnitTestImpl(testing::UnitTest*) [83]
+                0.00    0.00       3/7           testing::TestInfo::TestInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, testing::internal::CodeLocation, void const*, testing::internal::TestFactoryBase*) [45]
+[22]     0.0    0.00    0.00       7         testing::internal::Mutex::Mutex() [22]
+-----------------------------------------------
+                0.00    0.00       1/7           testing::internal::PrettyUnitTestResultPrinter::OnTestCaseStart(testing::TestSuite const&) [102]
+                0.00    0.00       1/7           testing::internal::PrettyUnitTestResultPrinter::OnTestCaseEnd(testing::TestSuite const&) [101]
+                0.00    0.00       2/7           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int) [106]
+                0.00    0.00       3/7           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+[23]     0.0    0.00    0.00       7         testing::FormatCountableNoun(int, char const*, char const*) [23]
+                0.00    0.00       7/7           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<int>(int const&) [21]
+-----------------------------------------------
+                0.00    0.00       1/7           void testing::internal::InitGoogleTestImpl<char>(int*, char**) [96]
+                0.00    0.00       6/7           testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*) [31]
+[24]     0.0    0.00    0.00       7         void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [24]
+-----------------------------------------------
+                0.00    0.00       6/6           void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[25]     0.0    0.00    0.00       6         testing::internal::OsStackTraceGetter::UponLeavingGTest() [25]
+-----------------------------------------------
+                0.00    0.00       6/6           _GLOBAL__sub_I__ZN7testing15AssertionResultC2ERKS0_ [132]
+[26]     0.0    0.00    0.00       6         testing::internal::StringFromGTestEnv(char const*, char const*) [26]
+                0.00    0.00       6/21          testing::internal::FlagToEnvVar(char const*) [16]
+-----------------------------------------------
+                0.00    0.00       3/6           testing::internal::SuiteApiResolver<testing::Test>::GetSetUpCaseOrSuite(char const*, int) [50]
+                0.00    0.00       3/6           testing::internal::SuiteApiResolver<testing::Test>::GetTearDownCaseOrSuite(char const*, int) [51]
+[27]     0.0    0.00    0.00       6         testing::internal::IsTrue(bool) [27]
+-----------------------------------------------
+                0.00    0.00       1/5           testing::TestSuite::~TestSuite() [123]
+                0.00    0.00       1/5           testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+                0.00    0.00       3/5           testing::TestInfo::~TestInfo() [46]
+[28]     0.0    0.00    0.00       5         testing::TestResult::~TestResult() [28]
+-----------------------------------------------
+                0.00    0.00       1/5           testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+                0.00    0.00       1/5           testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0] [85]
+                0.00    0.00       3/5           testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding) [79]
+[29]     0.0    0.00    0.00       5         testing::internal::(anonymous namespace)::UnitTestFilter::~UnitTestFilter() [29]
+-----------------------------------------------
+                0.00    0.00       1/5           testing::internal::PrettyUnitTestResultPrinter::OnTestCaseEnd(testing::TestSuite const&) [101]
+                0.00    0.00       1/5           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+                0.00    0.00       3/5           testing::internal::PrettyUnitTestResultPrinter::OnTestEnd(testing::TestInfo const&) [55]
+[30]     0.0    0.00    0.00       5         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<long>(long const&) [30]
+                0.00    0.00       5/55          testing::Message::Message() [9]
+                0.00    0.00       5/55          testing::internal::StringStreamToString(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*) [10]
+-----------------------------------------------
+                0.00    0.00       1/4           testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0] [85]
+                0.00    0.00       3/4           testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [48]
+[31]     0.0    0.00    0.00       4         testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*) [31]
+                0.00    0.00       6/7           void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [24]
+                0.00    0.00       4/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+                0.00    0.00       4/4           testing::internal::NoExecDeathTest::AssumeRole() [32]
+                0.00    0.00       4/11          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [20]
+-----------------------------------------------
+                0.00    0.00       4/4           testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*) [31]
+[32]     0.0    0.00    0.00       4         testing::internal::NoExecDeathTest::AssumeRole() [32]
+-----------------------------------------------
+                0.00    0.00       4/4           testing::internal::ShouldShard(char const*, char const*, bool) [63]
+[33]     0.0    0.00    0.00       4         testing::internal::Int32FromEnvOrDie(char const*, int) [33]
+-----------------------------------------------
+                0.00    0.00       1/4           testing::internal::UnitTestImpl::RunAllTests() [80]
+                0.00    0.00       3/4           testing::internal::ReportFailureInUnknownLocation(testing::TestPartResult::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [56]
+[34]     0.0    0.00    0.00       4         testing::TestResult::Skipped() const [34]
+                0.00    0.00       4/36          testing::TestResult::Failed() const [12]
+-----------------------------------------------
+                0.00    0.00       1/4           testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+                0.00    0.00       3/4           testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+[35]     0.0    0.00    0.00       4         void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) [35]
+-----------------------------------------------
+                                  16             maxValorRetirado(Jugo, int, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&) [36]
+                0.00    0.00       1/3           JugoTest_Test3_Test::TestBody() [70]
+                0.00    0.00       1/3           JugoTest_Test1_Test::TestBody() [66]
+                0.00    0.00       1/3           JugoTest_Test2_Test::TestBody() [68]
+[36]     0.0    0.00    0.00       3+16      maxValorRetirado(Jugo, int, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&) [36]
+                                  16             maxValorRetirado(Jugo, int, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&) [36]
+-----------------------------------------------
+                0.00    0.00       1/3           JugoTest_Test3_Test::TestBody() [70]
+                0.00    0.00       1/3           JugoTest_Test1_Test::TestBody() [66]
+                0.00    0.00       1/3           JugoTest_Test2_Test::TestBody() [68]
+[37]     0.0    0.00    0.00       3         Jugo::Jugo(int, int, int) [37]
+-----------------------------------------------
+                0.00    0.00       1/3           JugoTest_Test3_Test::TestBody() [70]
+                0.00    0.00       1/3           JugoTest_Test1_Test::TestBody() [66]
+                0.00    0.00       1/3           JugoTest_Test2_Test::TestBody() [68]
+[38]     0.0    0.00    0.00       3         testing::AssertionSuccess() [38]
+-----------------------------------------------
+                0.00    0.00       3/3           void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[39]     0.0    0.00    0.00       3         testing::Test::DeleteSelf_() [39]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::TestInfo::Run() [75]
+[40]     0.0    0.00    0.00       3         testing::Test::HasFatalFailure() [40]
+                0.00    0.00       3/52          testing::UnitTest::GetInstance() [11]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::TestInfo::Run() [75]
+[41]     0.0    0.00    0.00       3         testing::Test::HasSameFixtureClass() [41]
+                0.00    0.00       3/52          testing::UnitTest::GetInstance() [11]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::TestInfo::Run() [75]
+[42]     0.0    0.00    0.00       3         testing::Test::IsSkipped() [42]
+                0.00    0.00       3/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       3/36          testing::TestResult::Failed() const [12]
+-----------------------------------------------
+                0.00    0.00       1/3           testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::CreateTest() [91]
+                0.00    0.00       1/3           testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::CreateTest() [89]
+                0.00    0.00       1/3           testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::CreateTest() [87]
+[43]     0.0    0.00    0.00       3         testing::Test::Test() [43]
+-----------------------------------------------
+                0.00    0.00       1/3           JugoTest_Test3_Test::~JugoTest_Test3_Test() [71]
+                0.00    0.00       1/3           JugoTest_Test2_Test::~JugoTest_Test2_Test() [69]
+                0.00    0.00       1/3           JugoTest_Test1_Test::~JugoTest_Test1_Test() [67]
+[44]     0.0    0.00    0.00       3         testing::Test::~Test() [44]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+[45]     0.0    0.00    0.00       3         testing::TestInfo::TestInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, testing::internal::CodeLocation, void const*, testing::internal::TestFactoryBase*) [45]
+                0.00    0.00       6/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+                0.00    0.00       3/7           testing::internal::Mutex::Mutex() [22]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::TestSuite::~TestSuite() [123]
+[46]     0.0    0.00    0.00       3         testing::TestInfo::~TestInfo() [46]
+                0.00    0.00       3/5           testing::TestResult::~TestResult() [28]
+                0.00    0.00       1/1           testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::~TestFactoryImpl() [92]
+                0.00    0.00       1/1           testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::~TestFactoryImpl() [90]
+                0.00    0.00       1/1           testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::~TestFactoryImpl() [88]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+[47]     0.0    0.00    0.00       3         testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+                0.00    0.00       9/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+                0.00    0.00       5/26          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+                0.00    0.00       1/1           testing::TestSuite::TestSuite(char const*, char const*, void (*)(), void (*)()) [122]
+                0.00    0.00       1/3           testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [48]
+                0.00    0.00       1/1           testing::internal::(anonymous namespace)::UnitTestFilter::MatchesName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [124]
+                0.00    0.00       1/5           testing::internal::(anonymous namespace)::UnitTestFilter::~UnitTestFilter() [29]
+                0.00    0.00       1/4           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) [35]
+                0.00    0.00       1/1           void std::vector<testing::TestSuite*, std::allocator<testing::TestSuite*> >::_M_realloc_insert<testing::TestSuite* const&>(__gnu_cxx::__normal_iterator<testing::TestSuite**, std::vector<testing::TestSuite*, std::allocator<testing::TestSuite*> > >, testing::TestSuite* const&) [130]
+-----------------------------------------------
+                0.00    0.00       1/3           testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+                0.00    0.00       1/3           testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0] [85]
+                0.00    0.00       1/3           testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding) [79]
+[48]     0.0    0.00    0.00       3         testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [48]
+                0.00    0.00       5/22          testing::internal::(anonymous namespace)::IsGlobPattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [15]
+                0.00    0.00       3/4           testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*) [31]
+                0.00    0.00       3/11          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [20]
+-----------------------------------------------
+                0.00    0.00       3/3           _GLOBAL__sub_I__ZN19JugoTest_Test1_Test10test_info_E [131]
+[49]     0.0    0.00    0.00       3         testing::internal::GetTestTypeId() [49]
+-----------------------------------------------
+                0.00    0.00       3/3           _GLOBAL__sub_I__ZN19JugoTest_Test1_Test10test_info_E [131]
+[50]     0.0    0.00    0.00       3         testing::internal::SuiteApiResolver<testing::Test>::GetSetUpCaseOrSuite(char const*, int) [50]
+                0.00    0.00       3/6           testing::internal::IsTrue(bool) [27]
+-----------------------------------------------
+                0.00    0.00       3/3           _GLOBAL__sub_I__ZN19JugoTest_Test1_Test10test_info_E [131]
+[51]     0.0    0.00    0.00       3         testing::internal::SuiteApiResolver<testing::Test>::GetTearDownCaseOrSuite(char const*, int) [51]
+                0.00    0.00       3/6           testing::internal::IsTrue(bool) [27]
+-----------------------------------------------
+                0.00    0.00       3/3           _GLOBAL__sub_I__ZN7testing15AssertionResultC2ERKS0_ [132]
+[52]     0.0    0.00    0.00       3         testing::internal::Int32FromGTestEnv(char const*, int) [52]
+                0.00    0.00       3/21          testing::internal::FlagToEnvVar(char const*) [16]
+-----------------------------------------------
+                0.00    0.00       3/3           _GLOBAL__sub_I__ZN19JugoTest_Test1_Test10test_info_E [131]
+[53]     0.0    0.00    0.00       3         testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+                0.00    0.00       6/26          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+                0.00    0.00       3/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+                0.00    0.00       3/3           testing::TestInfo::TestInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, testing::internal::CodeLocation, void const*, testing::internal::TestFactoryBase*) [45]
+                0.00    0.00       3/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       3/3           testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+                0.00    0.00       3/3           void std::vector<testing::TestInfo*, std::allocator<testing::TestInfo*> >::_M_realloc_insert<testing::TestInfo* const&>(__gnu_cxx::__normal_iterator<testing::TestInfo**, std::vector<testing::TestInfo*, std::allocator<testing::TestInfo*> > >, testing::TestInfo* const&) [59]
+                0.00    0.00       3/4           void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) [35]
+                0.00    0.00       1/1           testing::internal::FilePath::GetCurrentDir() [118]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::TestInfo::Run() [75]
+[54]     0.0    0.00    0.00       3         testing::internal::PrettyUnitTestResultPrinter::OnTestStart(testing::TestInfo const&) [54]
+                0.00    0.00       3/13          testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::TestInfo::Run() [75]
+[55]     0.0    0.00    0.00       3         testing::internal::PrettyUnitTestResultPrinter::OnTestEnd(testing::TestInfo const&) [55]
+                0.00    0.00       9/36          testing::TestResult::Failed() const [12]
+                0.00    0.00       3/13          testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+                0.00    0.00       3/5           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<long>(long const&) [30]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::TestInfo::Run() [75]
+[56]     0.0    0.00    0.00       3         testing::internal::ReportFailureInUnknownLocation(testing::TestPartResult::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [56]
+                0.00    0.00       9/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       6/12          void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+                0.00    0.00       3/4           testing::TestResult::Skipped() const [34]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::TestInfo::Run() [75]
+[57]     0.0    0.00    0.00       3         testing::Test* testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::TestFactoryBase, testing::Test*>(testing::internal::TestFactoryBase*, testing::Test* (testing::internal::TestFactoryBase::*)(), char const*) [57]
+                0.00    0.00       3/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       1/1           testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::CreateTest() [91]
+                0.00    0.00       1/1           testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::CreateTest() [89]
+                0.00    0.00       1/1           testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::CreateTest() [87]
+-----------------------------------------------
+                0.00    0.00       3/3           _GLOBAL__sub_I__ZN19JugoTest_Test1_Test10test_info_E [131]
+[58]     0.0    0.00    0.00       3         testing::internal::FormatCxxExceptionMessage(char const*, char const*) [58]
+-----------------------------------------------
+                0.00    0.00       3/3           testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+[59]     0.0    0.00    0.00       3         void std::vector<testing::TestInfo*, std::allocator<testing::TestInfo*> >::_M_realloc_insert<testing::TestInfo* const&>(__gnu_cxx::__normal_iterator<testing::TestInfo**, std::vector<testing::TestInfo*, std::allocator<testing::TestInfo*> > >, testing::TestInfo* const&) [59]
+-----------------------------------------------
+                0.00    0.00       3/3           _GLOBAL__sub_I__ZN19JugoTest_Test1_Test10test_info_E [131]
+[60]     0.0    0.00    0.00       3         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [60]
+-----------------------------------------------
+                0.00    0.00       1/3           JugoTest_Test3_Test::TestBody() [70]
+                0.00    0.00       1/3           JugoTest_Test1_Test::TestBody() [66]
+                0.00    0.00       1/3           JugoTest_Test2_Test::TestBody() [68]
+[61]     0.0    0.00    0.00       3         std::vector<int, std::allocator<int> >* std::__do_uninit_copy<std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*) [61]
+-----------------------------------------------
+                0.00    0.00       1/3           testing::internal::ParseInternalRunDeathTestFlag() [113]
+                0.00    0.00       2/3           testing::internal::UnitTestImpl::ConfigureXmlOutput() [81]
+[62]     0.0    0.00    0.00       3         bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [62]
+-----------------------------------------------
+                0.00    0.00       1/2           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int) [106]
+                0.00    0.00       1/2           testing::internal::UnitTestImpl::RunAllTests() [80]
+[63]     0.0    0.00    0.00       2         testing::internal::ShouldShard(char const*, char const*, bool) [63]
+                0.00    0.00       4/4           testing::internal::Int32FromEnvOrDie(char const*, int) [33]
+-----------------------------------------------
+                0.00    0.00       2/2           testing::TestInfo::Run() [75]
+[64]     0.0    0.00    0.00       2         void testing::internal::HandleExceptionsInMethodIfSupported<testing::TestSuite, void>(testing::TestSuite*, void (testing::TestSuite::*)(), char const*) [64]
+                0.00    0.00       2/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       1/1           testing::TestSuite::RunTearDownTestSuite() [121]
+                0.00    0.00       1/1           testing::TestSuite::RunSetUpTestSuite() [120]
+-----------------------------------------------
+                0.00    0.00       1/2           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int) [106]
+                0.00    0.00       1/2           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+[65]     0.0    0.00    0.00       2         testing::TestSuite::test_to_run_count() const [65]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[66]     0.0    0.00    0.00       1         JugoTest_Test1_Test::TestBody() [66]
+                0.00    0.00       1/3           std::vector<int, std::allocator<int> >* std::__do_uninit_copy<std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*) [61]
+                0.00    0.00       1/3           Jugo::Jugo(int, int, int) [37]
+                0.00    0.00       1/3           maxValorRetirado(Jugo, int, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&) [36]
+                0.00    0.00       1/3           testing::AssertionSuccess() [38]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[67]     0.0    0.00    0.00       1         JugoTest_Test1_Test::~JugoTest_Test1_Test() [67]
+                0.00    0.00       1/3           testing::Test::~Test() [44]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[68]     0.0    0.00    0.00       1         JugoTest_Test2_Test::TestBody() [68]
+                0.00    0.00       1/3           std::vector<int, std::allocator<int> >* std::__do_uninit_copy<std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*) [61]
+                0.00    0.00       1/3           Jugo::Jugo(int, int, int) [37]
+                0.00    0.00       1/3           maxValorRetirado(Jugo, int, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&) [36]
+                0.00    0.00       1/3           testing::AssertionSuccess() [38]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[69]     0.0    0.00    0.00       1         JugoTest_Test2_Test::~JugoTest_Test2_Test() [69]
+                0.00    0.00       1/3           testing::Test::~Test() [44]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[70]     0.0    0.00    0.00       1         JugoTest_Test3_Test::TestBody() [70]
+                0.00    0.00       1/3           std::vector<int, std::allocator<int> >* std::__do_uninit_copy<std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*) [61]
+                0.00    0.00       1/3           Jugo::Jugo(int, int, int) [37]
+                0.00    0.00       1/3           maxValorRetirado(Jugo, int, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&) [36]
+                0.00    0.00       1/3           testing::AssertionSuccess() [38]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+[71]     0.0    0.00    0.00       1         JugoTest_Test3_Test::~JugoTest_Test3_Test() [71]
+                0.00    0.00       1/3           testing::Test::~Test() [44]
+-----------------------------------------------
+                0.00    0.00       1/1           main [7]
+[72]     0.0    0.00    0.00       1         testing::InitGoogleTest(int*, char**) [72]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::TestInfo::Run() [75]
+[73]     0.0    0.00    0.00       1         testing::TestEventListener::OnTestSuiteEnd(testing::TestSuite const&) [73]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::TestInfo::Run() [75]
+[74]     0.0    0.00    0.00       1         testing::TestEventListener::OnTestSuiteStart(testing::TestSuite const&) [74]
+-----------------------------------------------
+                                   3             testing::TestInfo::Run() [75]
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[75]     0.0    0.00    0.00       1+3       testing::TestInfo::Run() [75]
+                0.00    0.00       8/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       6/12          void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) [19]
+                0.00    0.00       3/3           testing::Test::HasFatalFailure() [40]
+                0.00    0.00       3/3           testing::Test* testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::TestFactoryBase, testing::Test*>(testing::internal::TestFactoryBase*, testing::Test* (testing::internal::TestFactoryBase::*)(), char const*) [57]
+                0.00    0.00       3/3           testing::internal::PrettyUnitTestResultPrinter::OnTestEnd(testing::TestInfo const&) [55]
+                0.00    0.00       3/3           testing::internal::PrettyUnitTestResultPrinter::OnTestStart(testing::TestInfo const&) [54]
+                0.00    0.00       3/3           testing::Test::IsSkipped() [42]
+                0.00    0.00       3/3           testing::Test::HasSameFixtureClass() [41]
+                0.00    0.00       3/3           testing::internal::ReportFailureInUnknownLocation(testing::TestPartResult::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [56]
+                0.00    0.00       2/2           void testing::internal::HandleExceptionsInMethodIfSupported<testing::TestSuite, void>(testing::TestSuite*, void (testing::TestSuite::*)(), char const*) [64]
+                0.00    0.00       1/36          testing::TestResult::Failed() const [12]
+                0.00    0.00       1/1           testing::TestEventListener::OnTestSuiteEnd(testing::TestSuite const&) [73]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestCaseEnd(testing::TestSuite const&) [101]
+                0.00    0.00       1/1           testing::TestEventListener::OnTestSuiteStart(testing::TestSuite const&) [74]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestCaseStart(testing::TestSuite const&) [102]
+                                   3             testing::TestInfo::Run() [75]
+-----------------------------------------------
+                0.00    0.00       1/1           main [7]
+[76]     0.0    0.00    0.00       1         testing::UnitTest::Run() [76]
+                0.00    0.00       1/26          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+                0.00    0.00       1/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+[77]     0.0    0.00    0.00       1         testing::internal::ThreadLocal<testing::TestPartResultReporterInterface*>::InstanceValueHolderFactory::~InstanceValueHolderFactory() [77]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+[78]     0.0    0.00    0.00       1         testing::internal::ThreadLocal<std::vector<testing::internal::TraceInfo, std::allocator<testing::internal::TraceInfo> > >::DefaultValueHolderFactory::~DefaultValueHolderFactory() [78]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[79]     0.0    0.00    0.00       1         testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding) [79]
+                0.00    0.00      15/22          testing::internal::(anonymous namespace)::IsGlobPattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [15]
+                0.00    0.00       3/5           testing::internal::(anonymous namespace)::UnitTestFilter::~UnitTestFilter() [29]
+                0.00    0.00       2/26          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+                0.00    0.00       1/1           testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0] [85]
+                0.00    0.00       1/3           testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [48]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::UnitTest::Run() [76]
+[80]     0.0    0.00    0.00       1         testing::internal::UnitTestImpl::RunAllTests() [80]
+                0.00    0.00       5/36          testing::TestResult::Failed() const [12]
+                0.00    0.00       2/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       1/1           std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) [128]
+                0.00    0.00       1/11          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [20]
+                0.00    0.00       1/1           testing::internal::WriteToShardStatusFileIfNeeded() [114]
+                0.00    0.00       1/2           testing::internal::ShouldShard(char const*, char const*, bool) [63]
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding) [79]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestProgramStart(testing::UnitTest const&) [105]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int) [106]
+                0.00    0.00       1/4           testing::TestResult::Skipped() const [34]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestProgramEnd(testing::UnitTest const&) [103]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownStart(testing::UnitTest const&) [110]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownEnd(testing::UnitTest const&) [109]
+                0.00    0.00       1/1           testing::TestInfo::Run() [75]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpStart(testing::UnitTest const&) [108]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpEnd(testing::UnitTest const&) [107]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::TypeParameterizedTestSuiteRegistry::CheckForInstantiations() [115]
+[81]     0.0    0.00    0.00       1         testing::internal::UnitTestImpl::ConfigureXmlOutput() [81]
+                0.00    0.00       2/3           bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [62]
+                0.00    0.00       1/1           testing::internal::UnitTestOptions::GetOutputFormat[abi:cxx11]() [93]
+-----------------------------------------------
+                0.00    0.00       1/1           main [7]
+[82]     0.0    0.00    0.00       1         testing::internal::UnitTestImpl::ConfigureStreamingOutput() [82]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::UnitTest::GetInstance() [11]
+[83]     0.0    0.00    0.00       1         testing::internal::UnitTestImpl::UnitTestImpl(testing::UnitTest*) [83]
+                0.00    0.00       2/7           testing::internal::Mutex::Mutex() [22]
+                0.00    0.00       1/26          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+                0.00    0.00       1/1           testing::internal::TestEventRepeater::Release(testing::TestEventListener*) [94]
+                0.00    0.00       1/1           void std::vector<testing::TestEventListener*, std::allocator<testing::TestEventListener*> >::_M_realloc_insert<testing::TestEventListener* const&>(__gnu_cxx::__normal_iterator<testing::TestEventListener**, std::vector<testing::TestEventListener*, std::allocator<testing::TestEventListener*> > >, testing::TestEventListener* const&) [129]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::UnitTest::~UnitTest() [256]
+[84]     0.0    0.00    0.00       1         testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+                0.00    0.00       1/1           testing::TestSuite::~TestSuite() [123]
+                0.00    0.00       1/1           testing::internal::OsStackTraceGetter::~OsStackTraceGetter() [97]
+                0.00    0.00       1/1           testing::internal::ThreadLocal<std::vector<testing::internal::TraceInfo, std::allocator<testing::internal::TraceInfo> > >::DefaultValueHolderFactory::~DefaultValueHolderFactory() [78]
+                0.00    0.00       1/1           testing::internal::DefaultDeathTestFactory::~DefaultDeathTestFactory() [99]
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::~PrettyUnitTestResultPrinter() [111]
+                0.00    0.00       1/5           testing::TestResult::~TestResult() [28]
+                0.00    0.00       1/1           testing::internal::ThreadLocal<testing::TestPartResultReporterInterface*>::InstanceValueHolderFactory::~InstanceValueHolderFactory() [77]
+                0.00    0.00       1/1           testing::internal::Mutex::~Mutex() [116]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding) [79]
+[85]     0.0    0.00    0.00       1         testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0] [85]
+                0.00    0.00       2/11          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [20]
+                0.00    0.00       1/4           testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*) [31]
+                0.00    0.00       1/3           testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [48]
+                0.00    0.00       1/5           testing::internal::(anonymous namespace)::UnitTestFilter::~UnitTestFilter() [29]
+                0.00    0.00       1/1           testing::internal::TestEventRepeater::~TestEventRepeater() [95]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+[86]     0.0    0.00    0.00       1         testing::internal::ShouldUseColor(bool) [86]
+                0.00    0.00       2/26          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+                0.00    0.00       1/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+                0.00    0.00       1/1           testing::internal::String::EndsWithCaseInsensitive(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [117]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::Test* testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::TestFactoryBase, testing::Test*>(testing::internal::TestFactoryBase*, testing::Test* (testing::internal::TestFactoryBase::*)(), char const*) [57]
+[87]     0.0    0.00    0.00       1         testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::CreateTest() [87]
+                0.00    0.00       1/3           testing::Test::Test() [43]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::TestInfo::~TestInfo() [46]
+[88]     0.0    0.00    0.00       1         testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::~TestFactoryImpl() [88]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::Test* testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::TestFactoryBase, testing::Test*>(testing::internal::TestFactoryBase*, testing::Test* (testing::internal::TestFactoryBase::*)(), char const*) [57]
+[89]     0.0    0.00    0.00       1         testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::CreateTest() [89]
+                0.00    0.00       1/3           testing::Test::Test() [43]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::TestInfo::~TestInfo() [46]
+[90]     0.0    0.00    0.00       1         testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::~TestFactoryImpl() [90]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::Test* testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::TestFactoryBase, testing::Test*>(testing::internal::TestFactoryBase*, testing::Test* (testing::internal::TestFactoryBase::*)(), char const*) [57]
+[91]     0.0    0.00    0.00       1         testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::CreateTest() [91]
+                0.00    0.00       1/3           testing::Test::Test() [43]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::TestInfo::~TestInfo() [46]
+[92]     0.0    0.00    0.00       1         testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::~TestFactoryImpl() [92]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::ConfigureXmlOutput() [81]
+[93]     0.0    0.00    0.00       1         testing::internal::UnitTestOptions::GetOutputFormat[abi:cxx11]() [93]
+                0.00    0.00       1/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+                0.00    0.00       1/26          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::UnitTestImpl(testing::UnitTest*) [83]
+[94]     0.0    0.00    0.00       1         testing::internal::TestEventRepeater::Release(testing::TestEventListener*) [94]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0] [85]
+[95]     0.0    0.00    0.00       1         testing::internal::TestEventRepeater::~TestEventRepeater() [95]
+-----------------------------------------------
+                0.00    0.00       1/1           main [7]
+[96]     0.0    0.00    0.00       1         void testing::internal::InitGoogleTestImpl<char>(int*, char**) [96]
+                0.00    0.00       1/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       1/1           void testing::internal::ParseGoogleTestFlagsOnlyImpl<char>(int*, char**) [112]
+                0.00    0.00       1/1           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<char*>(char* const&) [98]
+                0.00    0.00       1/7           void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [24]
+                0.00    0.00       1/11          std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector() [20]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+[97]     0.0    0.00    0.00       1         testing::internal::OsStackTraceGetter::~OsStackTraceGetter() [97]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::InitGoogleTestImpl<char>(int*, char**) [96]
+[98]     0.0    0.00    0.00       1         std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<char*>(char* const&) [98]
+                0.00    0.00       1/55          testing::Message::Message() [9]
+                0.00    0.00       1/55          testing::internal::StringStreamToString(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*) [10]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+[99]     0.0    0.00    0.00       1         testing::internal::DefaultDeathTestFactory::~DefaultDeathTestFactory() [99]
+-----------------------------------------------
+                0.00    0.00       1/1           _GLOBAL__sub_I__ZN7testing15AssertionResultC2ERKS0_ [132]
+[100]    0.0    0.00    0.00       1         testing::internal::OutputFlagAlsoCheckEnvVar[abi:cxx11]() [100]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::TestInfo::Run() [75]
+[101]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnTestCaseEnd(testing::TestSuite const&) [101]
+                0.00    0.00       1/7           testing::FormatCountableNoun(int, char const*, char const*) [23]
+                0.00    0.00       1/13          testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+                0.00    0.00       1/5           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<long>(long const&) [30]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::TestInfo::Run() [75]
+[102]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnTestCaseStart(testing::TestSuite const&) [102]
+                0.00    0.00       1/7           testing::FormatCountableNoun(int, char const*, char const*) [23]
+                0.00    0.00       1/13          testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[103]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnTestProgramEnd(testing::UnitTest const&) [103]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[104]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+                0.00    0.00       5/36          testing::TestResult::Failed() const [12]
+                0.00    0.00       3/7           testing::FormatCountableNoun(int, char const*, char const*) [23]
+                0.00    0.00       2/13          testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+                0.00    0.00       1/2           testing::TestSuite::test_to_run_count() const [65]
+                0.00    0.00       1/5           std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<long>(long const&) [30]
+                0.00    0.00       1/1           testing::TestSuite::successful_test_count() const [126]
+                0.00    0.00       1/1           testing::TestSuite::skipped_test_count() const [125]
+                0.00    0.00       1/1           testing::TestSuite::reportable_disabled_test_count() const [127]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[105]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnTestProgramStart(testing::UnitTest const&) [105]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[106]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int) [106]
+                0.00    0.00       2/7           testing::FormatCountableNoun(int, char const*, char const*) [23]
+                0.00    0.00       1/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+                0.00    0.00       1/2           testing::internal::ShouldShard(char const*, char const*, bool) [63]
+                0.00    0.00       1/13          testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+                0.00    0.00       1/2           testing::TestSuite::test_to_run_count() const [65]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[107]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpEnd(testing::UnitTest const&) [107]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[108]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpStart(testing::UnitTest const&) [108]
+                0.00    0.00       1/13          testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[109]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownEnd(testing::UnitTest const&) [109]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[110]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownStart(testing::UnitTest const&) [110]
+                0.00    0.00       1/13          testing::internal::PrintColorEncoded(char const*) [clone .constprop.0] [17]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+[111]    0.0    0.00    0.00       1         testing::internal::PrettyUnitTestResultPrinter::~PrettyUnitTestResultPrinter() [111]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::InitGoogleTestImpl<char>(int*, char**) [96]
+[112]    0.0    0.00    0.00       1         void testing::internal::ParseGoogleTestFlagsOnlyImpl<char>(int*, char**) [112]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::TypeParameterizedTestSuiteRegistry::CheckForInstantiations() [115]
+[113]    0.0    0.00    0.00       1         testing::internal::ParseInternalRunDeathTestFlag() [113]
+                0.00    0.00       1/3           bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*) [62]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[114]    0.0    0.00    0.00       1         testing::internal::WriteToShardStatusFileIfNeeded() [114]
+-----------------------------------------------
+                                   1             testing::internal::TypeParameterizedTestSuiteRegistry::CheckForInstantiations() [115]
+                0.00    0.00       1/1           main [7]
+[115]    0.0    0.00    0.00       1+1       testing::internal::TypeParameterizedTestSuiteRegistry::CheckForInstantiations() [115]
+                0.00    0.00       1/52          testing::UnitTest::GetInstance() [11]
+                0.00    0.00       1/1           testing::internal::ParseInternalRunDeathTestFlag() [113]
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::ConfigureXmlOutput() [81]
+                                   1             testing::internal::TypeParameterizedTestSuiteRegistry::CheckForInstantiations() [115]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+[116]    0.0    0.00    0.00       1         testing::internal::Mutex::~Mutex() [116]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::ShouldUseColor(bool) [86]
+[117]    0.0    0.00    0.00       1         testing::internal::String::EndsWithCaseInsensitive(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [117]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [53]
+[118]    0.0    0.00    0.00       1         testing::internal::FilePath::GetCurrentDir() [118]
+                0.00    0.00       1/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+                0.00    0.00       1/1           testing::internal::FilePath::Normalize() [119]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::FilePath::GetCurrentDir() [118]
+[119]    0.0    0.00    0.00       1         testing::internal::FilePath::Normalize() [119]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::HandleExceptionsInMethodIfSupported<testing::TestSuite, void>(testing::TestSuite*, void (testing::TestSuite::*)(), char const*) [64]
+[120]    0.0    0.00    0.00       1         testing::TestSuite::RunSetUpTestSuite() [120]
+-----------------------------------------------
+                0.00    0.00       1/1           void testing::internal::HandleExceptionsInMethodIfSupported<testing::TestSuite, void>(testing::TestSuite*, void (testing::TestSuite::*)(), char const*) [64]
+[121]    0.0    0.00    0.00       1         testing::TestSuite::RunTearDownTestSuite() [121]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+[122]    0.0    0.00    0.00       1         testing::TestSuite::TestSuite(char const*, char const*, void (*)(), void (*)()) [122]
+                0.00    0.00       1/26          std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0] [14]
+                0.00    0.00       1/7           testing::internal::Mutex::Mutex() [22]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::~UnitTestImpl() [84]
+[123]    0.0    0.00    0.00       1         testing::TestSuite::~TestSuite() [123]
+                0.00    0.00       3/3           testing::TestInfo::~TestInfo() [46]
+                0.00    0.00       1/5           testing::TestResult::~TestResult() [28]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+[124]    0.0    0.00    0.00       1         testing::internal::(anonymous namespace)::UnitTestFilter::MatchesName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const [124]
+                0.00    0.00       2/22          testing::internal::(anonymous namespace)::IsGlobPattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [15]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+[125]    0.0    0.00    0.00       1         testing::TestSuite::skipped_test_count() const [125]
+                0.00    0.00       3/36          testing::TestResult::Failed() const [12]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+[126]    0.0    0.00    0.00       1         testing::TestSuite::successful_test_count() const [126]
+                0.00    0.00       6/36          testing::TestResult::Failed() const [12]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [104]
+[127]    0.0    0.00    0.00       1         testing::TestSuite::reportable_disabled_test_count() const [127]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::RunAllTests() [80]
+[128]    0.0    0.00    0.00       1         std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) [128]
+                0.00    0.00       1/27          testing::internal::TestEventRepeater::~TestEventRepeater() [13]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::UnitTestImpl(testing::UnitTest*) [83]
+[129]    0.0    0.00    0.00       1         void std::vector<testing::TestEventListener*, std::allocator<testing::TestEventListener*> >::_M_realloc_insert<testing::TestEventListener* const&>(__gnu_cxx::__normal_iterator<testing::TestEventListener**, std::vector<testing::TestEventListener*, std::allocator<testing::TestEventListener*> > >, testing::TestEventListener* const&) [129]
+-----------------------------------------------
+                0.00    0.00       1/1           testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [47]
+[130]    0.0    0.00    0.00       1         void std::vector<testing::TestSuite*, std::allocator<testing::TestSuite*> >::_M_realloc_insert<testing::TestSuite* const&>(__gnu_cxx::__normal_iterator<testing::TestSuite**, std::vector<testing::TestSuite*, std::allocator<testing::TestSuite*> > >, testing::TestSuite* const&) [130]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012-2024 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [36] maxValorRetirado(Jugo, int, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > const&) [86] testing::internal::ShouldUseColor(bool) [112] void testing::internal::ParseGoogleTestFlagsOnlyImpl<char>(int*, char**)
+  [66] JugoTest_Test1_Test::TestBody() [32] testing::internal::NoExecDeathTest::AssumeRole() [113] testing::internal::ParseInternalRunDeathTestFlag()
+  [67] JugoTest_Test1_Test::~JugoTest_Test1_Test() [87] testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::CreateTest() [56] testing::internal::ReportFailureInUnknownLocation(testing::TestPartResult::Type, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [68] JugoTest_Test2_Test::TestBody() [88] testing::internal::TestFactoryImpl<JugoTest_Test1_Test>::~TestFactoryImpl() [114] testing::internal::WriteToShardStatusFileIfNeeded()
+  [69] JugoTest_Test2_Test::~JugoTest_Test2_Test() [89] testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::CreateTest() [115] testing::internal::TypeParameterizedTestSuiteRegistry::CheckForInstantiations()
+  [70] JugoTest_Test3_Test::TestBody() [90] testing::internal::TestFactoryImpl<JugoTest_Test2_Test>::~TestFactoryImpl() [57] testing::Test* testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::TestFactoryBase, testing::Test*>(testing::internal::TestFactoryBase*, testing::Test* (testing::internal::TestFactoryBase::*)(), char const*)
+  [71] JugoTest_Test3_Test::~JugoTest_Test3_Test() [91] testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::CreateTest() [19] void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*)
+  [37] Jugo::Jugo(int, int, int) [92] testing::internal::TestFactoryImpl<JugoTest_Test3_Test>::~TestFactoryImpl() [64] void testing::internal::HandleExceptionsInMethodIfSupported<testing::TestSuite, void>(testing::TestSuite*, void (testing::TestSuite::*)(), char const*)
+  [28] testing::TestResult::~TestResult() [93] testing::internal::UnitTestOptions::GetOutputFormat[abi:cxx11]() [22] testing::internal::Mutex::Mutex()
+  [72] testing::InitGoogleTest(int*, char**) [18] testing::internal::BoolFromGTestEnv(char const*, bool) [116] testing::internal::Mutex::~Mutex()
+  [38] testing::AssertionSuccess() [50] testing::internal::SuiteApiResolver<testing::Test>::GetSetUpCaseOrSuite(char const*, int) [27] testing::internal::IsTrue(bool)
+  [73] testing::TestEventListener::OnTestSuiteEnd(testing::TestSuite const&) [51] testing::internal::SuiteApiResolver<testing::Test>::GetTearDownCaseOrSuite(char const*, int) [117] testing::internal::String::EndsWithCaseInsensitive(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+  [74] testing::TestEventListener::OnTestSuiteStart(testing::TestSuite const&) [33] testing::internal::Int32FromEnvOrDie(char const*, int) [118] testing::internal::FilePath::GetCurrentDir()
+  [39] testing::Test::DeleteSelf_() [52] testing::internal::Int32FromGTestEnv(char const*, int) [119] testing::internal::FilePath::Normalize()
+  [40] testing::Test::HasFatalFailure() [94] testing::internal::TestEventRepeater::Release(testing::TestEventListener*) [16] testing::internal::FlagToEnvVar(char const*)
+  [41] testing::Test::HasSameFixtureClass() [95] testing::internal::TestEventRepeater::~TestEventRepeater() [17] testing::internal::PrintColorEncoded(char const*) [clone .constprop.0]
+  [42] testing::Test::IsSkipped() [13] testing::internal::TestEventRepeater::~TestEventRepeater() [58] testing::internal::FormatCxxExceptionMessage(char const*, char const*)
+  [43] testing::Test::Test()  [96] void testing::internal::InitGoogleTestImpl<char>(int*, char**) [120] testing::TestSuite::RunSetUpTestSuite()
+  [44] testing::Test::~Test() [25] testing::internal::OsStackTraceGetter::UponLeavingGTest() [121] testing::TestSuite::RunTearDownTestSuite()
+   [9] testing::Message::Message() [97] testing::internal::OsStackTraceGetter::~OsStackTraceGetter() [122] testing::TestSuite::TestSuite(char const*, char const*, void (*)(), void (*)())
+  [75] testing::TestInfo::Run() [98] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<char*>(char* const&) [123] testing::TestSuite::~TestSuite()
+  [45] testing::TestInfo::TestInfo(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*, char const*, testing::internal::CodeLocation, void const*, testing::internal::TestFactoryBase*) [21] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<int>(int const&) [23] testing::FormatCountableNoun(int, char const*, char const*)
+  [46] testing::TestInfo::~TestInfo() [30] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > testing::internal::StreamableToString<long>(long const&) [12] testing::TestResult::Failed() const
+  [11] testing::UnitTest::GetInstance() [26] testing::internal::StringFromGTestEnv(char const*, char const*) [34] testing::TestResult::Skipped() const
+  [76] testing::UnitTest::Run() [10] testing::internal::StringStreamToString(std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >*) [124] testing::internal::(anonymous namespace)::UnitTestFilter::MatchesName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+  [63] testing::internal::ShouldShard(char const*, char const*, bool) [99] testing::internal::DefaultDeathTestFactory::~DefaultDeathTestFactory() [65] testing::TestSuite::test_to_run_count() const
+  [31] testing::internal::SplitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*) [53] testing::internal::MakeAndRegisterTestInfo(char const*, char const*, char const*, char const*, testing::internal::CodeLocation, void const*, void (*)(), void (*)(), testing::internal::TestFactoryBase*) [125] testing::TestSuite::skipped_test_count() const
+  [77] testing::internal::ThreadLocal<testing::TestPartResultReporterInterface*>::InstanceValueHolderFactory::~InstanceValueHolderFactory() [100] testing::internal::OutputFlagAlsoCheckEnvVar[abi:cxx11]() [126] testing::TestSuite::successful_test_count() const
+  [78] testing::internal::ThreadLocal<std::vector<testing::internal::TraceInfo, std::allocator<testing::internal::TraceInfo> > >::DefaultValueHolderFactory::~DefaultValueHolderFactory() [54] testing::internal::PrettyUnitTestResultPrinter::OnTestStart(testing::TestInfo const&) [127] testing::TestSuite::reportable_disabled_test_count() const
+  [79] testing::internal::UnitTestImpl::FilterTests(testing::internal::UnitTestImpl::ReactionToSharding) [101] testing::internal::PrettyUnitTestResultPrinter::OnTestCaseEnd(testing::TestSuite const&) [24] void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+  [80] testing::internal::UnitTestImpl::RunAllTests() [102] testing::internal::PrettyUnitTestResultPrinter::OnTestCaseStart(testing::TestSuite const&) [128] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+  [47] testing::internal::UnitTestImpl::GetTestSuite(char const*, char const*, void (*)(), void (*)()) [103] testing::internal::PrettyUnitTestResultPrinter::OnTestProgramEnd(testing::UnitTest const&) [20] std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+  [81] testing::internal::UnitTestImpl::ConfigureXmlOutput() [104] testing::internal::PrettyUnitTestResultPrinter::OnTestIterationEnd(testing::UnitTest const&, int) [129] void std::vector<testing::TestEventListener*, std::allocator<testing::TestEventListener*> >::_M_realloc_insert<testing::TestEventListener* const&>(__gnu_cxx::__normal_iterator<testing::TestEventListener**, std::vector<testing::TestEventListener*, std::allocator<testing::TestEventListener*> > >, testing::TestEventListener* const&)
+  [82] testing::internal::UnitTestImpl::ConfigureStreamingOutput() [105] testing::internal::PrettyUnitTestResultPrinter::OnTestProgramStart(testing::UnitTest const&) [59] void std::vector<testing::TestInfo*, std::allocator<testing::TestInfo*> >::_M_realloc_insert<testing::TestInfo* const&>(__gnu_cxx::__normal_iterator<testing::TestInfo**, std::vector<testing::TestInfo*, std::allocator<testing::TestInfo*> > >, testing::TestInfo* const&)
+  [83] testing::internal::UnitTestImpl::UnitTestImpl(testing::UnitTest*) [106] testing::internal::PrettyUnitTestResultPrinter::OnTestIterationStart(testing::UnitTest const&, int) [130] void std::vector<testing::TestSuite*, std::allocator<testing::TestSuite*> >::_M_realloc_insert<testing::TestSuite* const&>(__gnu_cxx::__normal_iterator<testing::TestSuite**, std::vector<testing::TestSuite*, std::allocator<testing::TestSuite*> > >, testing::TestSuite* const&)
+  [84] testing::internal::UnitTestImpl::~UnitTestImpl() [107] testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpEnd(testing::UnitTest const&) [35] void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&)
+  [15] testing::internal::(anonymous namespace)::IsGlobPattern(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [108] testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsSetUpStart(testing::UnitTest const&) [60] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+  [48] testing::internal::(anonymous namespace)::UnitTestFilter::UnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [109] testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownEnd(testing::UnitTest const&) [14] std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&) [clone .constprop.0]
+  [29] testing::internal::(anonymous namespace)::UnitTestFilter::~UnitTestFilter() [110] testing::internal::PrettyUnitTestResultPrinter::OnEnvironmentsTearDownStart(testing::UnitTest const&) [61] std::vector<int, std::allocator<int> >* std::__do_uninit_copy<std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*>(std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> > const*, std::vector<int, std::allocator<int> >*)
+  [85] testing::internal::(anonymous namespace)::PositiveAndNegativeUnitTestFilter::PositiveAndNegativeUnitTestFilter(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) [clone .constprop.0] [55] testing::internal::PrettyUnitTestResultPrinter::OnTestEnd(testing::TestInfo const&) [62] bool std::operator==<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+  [49] testing::internal::GetTestTypeId() [111] testing::internal::PrettyUnitTestResultPrinter::~PrettyUnitTestResultPrinter()
